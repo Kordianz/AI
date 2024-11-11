@@ -1,0 +1,15 @@
+# Plik requirements.txt
+# Zawiera wszystkie zależności niezbędne do uruchomienia projektu
+
+# Biblioteka do zarządzania zmiennymi środowiskowymi
+python-dotenv
+
+# Klient Azure OpenAI (OpenAI SDK z możliwością połączenia z Azure)
+openai
+
+# Biblioteka do pracy z FAISS, używana do podobieństwa wektorów (embeddingi)
+faiss-cpu
+
+# Biblioteki pomocnicze
+numpy  # Do pracy z wektorami i obliczeniami numerycznymi
+PyYAML   # Do zapisywania i ładowania plików YAML (metadane notatek)
