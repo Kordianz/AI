@@ -1,3 +1,6 @@
+Oto przykładowe **README.md** dla repozytorium Gita tworzonego w ramach nauki kursu AI Devs 3:
+
+```markdown
 # Projekt: Przetwarzanie Obrazów i Generacja Opisów za pomocą Azure OpenAI
 
 Ten projekt został stworzony w ramach nauki na kursie **AI Devs 3**. Celem jest integracja z usługą Azure OpenAI do przetwarzania obrazów oraz generowania opisów i odpowiedzi na podstawie przesłanych zdjęć.
@@ -28,3 +31,22 @@ Repozytorium zawiera skrypt, który:
 1. Skopiuj repozytorium:
    ```bash
    git clone https://github.com/twoj_login/nazwa_repozytorium.git
+   ```
+2. Zainstaluj wymagane biblioteki:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Utwórz plik `.env` i dodaj klucze API dla usług Azure OpenAI.
+4. Uruchom skrypt `vision.py`, aby przetworzyć obrazy i uzyskać opisy:
+   ```bash
+   python vision.py
+   ```
+
+## Przykłady Użycia
+
+W folderze `images` można umieścić obrazy, które zostaną przetworzone przez skrypt. Skrypt wygeneruje opisy obrazów na podstawie przesłanych promptów.
+
+## Uwagi
+
+Projekt ten jest tworzony w ramach nauki i testowania integracji z usługą Azure OpenAI, więc może zawierać uproszczenia i wymaga dalszego rozwijania.
+```
