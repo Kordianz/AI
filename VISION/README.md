@@ -1,6 +1,4 @@
 
-
-```
 # Projekt: Przetwarzanie Obrazów i Generacja Opisów za pomocą Azure OpenAI
 
 Ten projekt został stworzony w ramach nauki na kursie **AI Devs 3**. Celem jest integracja z usługą Azure OpenAI do przetwarzania obrazów oraz generowania opisów i odpowiedzi na podstawie przesłanych zdjęć.
@@ -49,4 +47,3 @@ W folderze `images` można umieścić obrazy, które zostaną przetworzone przez
 ## Uwagi
 
 Projekt ten jest tworzony w ramach nauki i testowania integracji z usługą Azure OpenAI, więc może zawierać uproszczenia i wymaga dalszego rozwijania.
-
